@@ -1,0 +1,30 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+
+.body {
+  margin: 0px;
+}
+
+.bg-container {
+  background-color: coral;
+  height: 100vh;
+  max-width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.items-container {
+  background-color: azure;
+  border-radius: 10px;
+  border-width: 0px;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
